@@ -2,11 +2,8 @@
 // if the date is less than 16th of the month else shows “Last days of the
 // month”.
 
-import 'dart:io';
-
 void main() {
-  print("Enter a Date of the Month: ");
-  int enteredday = int.parse(stdin.readLineSync());
+  int enteredday = 95;
   print("Your Entered Date is: $enteredday");
 
   if (enteredday <= 15 && enteredday >= 1) {
